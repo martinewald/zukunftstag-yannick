@@ -1,0 +1,21 @@
+body {
+    margin: 12px;
+}
+
+.title {
+    background: #863d3d;
+    color: white;
+}
+
+.webChat-container {
+    border: 1px solid #863d3d;
+}
+
+
+/* CHAT */ 
+.webchat__bubble:not(.webchat__bubble--from-user) .webchat__bubble__content {
+    background: #8cbea033 !important;
+}
+.webchat__bubble--from-user p {
+    background: #a9c8f64a;
+}
